@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from './React';
 
 function App() {
   return (
-   <h1>hello </h1>
+    <>
+    <React/>
+   <h1>hello sarthak </h1>
+    </>
   );
 }
-  
+
 export default App;
