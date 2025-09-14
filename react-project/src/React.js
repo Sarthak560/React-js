@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from './components/Card';
+import BgChanger from "./bgchanger";
 
 function React() {
   let [count, setCount] = useState(0);
@@ -31,9 +32,9 @@ function React() {
           <button onClick={addValue} style={{ background: '#2563eb', color: '#fff', border: 'none', borderRadius: '0.5em', padding: '0.5em 1.5em', fontSize: '1em', fontWeight: '500', cursor: 'pointer', borderBottom: '2px solid #1e40af', transition: 'background 0.2s' }}>Add Value</button>
           <button onClick={removeValue} style={{ background: '#64748b', color: '#fff', border: 'none', borderRadius: '0.5em', padding: '0.5em 1.5em', fontSize: '1em', fontWeight: '500', cursor: 'pointer', borderBottom: '2px solid #334155', transition: 'background 0.2s' }}>Remove Value</button>
         </div>
-        <Card username="sarthak"/>
-        <Card username="Gupta"/>
+        <Card />
       </div>
+      <BgChanger />
     </div>
   );
 }
