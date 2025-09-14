@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-function Card({username = "Available soon"}) {
+function Card({ username = "Available soon" }) {
   return (
     <div className="w-10 h-10 rounded-xl">
       <img
@@ -12,7 +12,7 @@ function Card({username = "Available soon"}) {
         <h1 className="font-bold  font-mono  text-xl">{username}</h1>
       </div>
     </div>
-  )
+  );
 }
 
 export default Card;

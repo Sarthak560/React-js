@@ -1,9 +1,11 @@
-import React from './React';
+import PassGen from "./Passgen";
+import React from "./React";
 
 function App() {
   return (
     <>
-    <React/>
+      <PassGen />
+      {/* <React /> */}
     </>
   );
 }
