@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Card from "./components/Card";
-import BgChanger from "./bgchanger";
 
 function React() {
   let [count, setCount] = useState(0);
@@ -110,7 +109,6 @@ function React() {
         </div>
         <Card />
       </div>
-      <BgChanger />
     </div>
   );
 }
